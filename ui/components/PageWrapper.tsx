@@ -1,10 +1,10 @@
 "use client"
 
 import React from "react"
-import MenuButton from "./MenuButton"
 
 import { Space_Mono as SpaceMono } from "next/font/google"
 import { useRouter } from "next/navigation"
+import MenuButton from "./MenuButton"
 
 const mono = SpaceMono({
   variable: "--font-mono",
